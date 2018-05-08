@@ -22,3 +22,7 @@ function destructivelyDeleteFromObjectByKey(object, key)  {
   delete deletingObject.key;
   return deletingObject;
 }
+function destructivelyDeleteFromObjectByKey(object, key)  {
+  var modObject = Object.assign({}, object)
+  return modObject;
+}
